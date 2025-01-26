@@ -1,0 +1,119 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0; 
+    margin-left: 3em;
+    overflow-x: hidden;
+}
+#fp {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(1, 103, 1);
+    display: flex;
+    padding: 1em 2em 1em 2em;
+    margin: auto;
+}
+#lies{
+    flex-wrap: wrap;
+    color: rgb(111, 114, 113);
+    font-size: 3rem;
+    font-weight: 800;
+    width: 40%;
+    height: 95vh;
+    text-transform: capitalize;
+}
+#logo{
+    flex-wrap: wrap;
+    width: 40%;
+    margin: auto;
+}
+#logo img{
+    width: 30rem;
+    height: 30rem;
+}
+#engines {
+    border: 2px solid black;
+    border-radius: 3em;
+    padding: 1em;
+    margin: auto;
+    width: 40%;
+    margin-top: 1em;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#engines button{
+    width: 3em;
+    height: 3em;
+    border-radius: 0.5em
+} 
+#goRight {
+    margin-left: 35rem
+}
+#engineName{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 2em;
+}
+#reviews {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: auto;
+}
+.ratings {
+    border-radius: 1em;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 27%;
+    padding: 1em;
+    margin: 1em
+}
+.center{
+    text-align:  center;
+}
+#planHolder{
+    display: flex;
+    height: 80vh;
+    
+    margin: auto;
+}
+.plans{
+    display: flex;
+    display: block;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 1.5em;
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 1em;
+}
+.ingots{
+    width: 4em;
+    height: 3em;
+    margin: auto;
+    margin-top: 0.5em;
+    display: block;
+}
+.minerals{
+    width: 3em;
+    height: 3em;
+    margin: auto;
+    margin-top: 0.5em;
+    display: block;
+}
+::selection{
+    background-color: grey;
+    color: white;
+}
+li {
+    font-size: 1.9em;
+}
+.buy {
+    padding: 1em;
+    border-radius: 1em;
+    width: 10em;
+    height: 3em;
+    margin: auto;
+    display: block;
+    font-size: 1.5em;
+}
