@@ -4,6 +4,12 @@ let engines = ['stockfish', 'torch', 'komodo dragon', "lc0"]
 let engineDiv = document.querySelector('#engines')
 let leftButton = document.querySelector('#goLeft')
 let rightButton = document.querySelector('#goRight')
+let settingButton = document.querySelector('#settings')
+let background = document.querySelector('#back')
+let content = document.querySelector('#content')
+let closeButton =  document.querySelector('#close')
+let copyButton = document.querySelector('#copy')
+let urlInput = document.querySelector('#url')
 
 function rFunction(){
     if(index === engines.length - 1){
@@ -30,4 +36,16 @@ function lFunction(){
         <img id="engineIMG" src="images/${engines[index]}.png" draggable="false">
         <p id="engineName">${engines[index]}</p>`
     }
+}
+
+settingButton.onclick = function() {
+    background.style.display = 'block'
+    content.style.display = 'block'
+}
+closeButton.onclick = function (){
+    background.style.display = 'none'
+    content.style.display = 'none'
+}
+copyButton.onclick = function (){
+    navigator.clipboard.writeText(urlInput.value);
 }
