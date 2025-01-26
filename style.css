@@ -15,7 +15,7 @@ html, body {
 #lies{
     flex-wrap: wrap;
     color: rgb(111, 114, 113);
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 800;
     width: 40%;
     height: 95vh;
@@ -46,7 +46,12 @@ html, body {
     border-radius: 0.5em
 } 
 #goRight {
-    margin-left: 35rem
+    margin-left: 25rem
+}
+#goleft {
+    margin-right: 25rem;
+    background-color: black;
+    display: flex;
 }
 #engineName{
     text-transform: capitalize;
@@ -64,7 +69,7 @@ html, body {
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
-    width: 27%;
+    width: 26%;
     padding: 1em;
     margin: 1em
 }
@@ -106,7 +111,7 @@ html, body {
     color: white;
 }
 li {
-    font-size: 1.9em;
+    font-size: 1em;
 }
 .buy {
     padding: 1em;
@@ -116,4 +121,11 @@ li {
     margin: auto;
     display: block;
     font-size: 1.5em;
+}
+nav{
+    width: 6rem;
+    height: 98%;
+    background-color: rgb(38, 150, 38);
+    position: fixed;
+    left: 0;
 }
