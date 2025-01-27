@@ -3,6 +3,7 @@ html, body {
     padding: 0; 
     margin-left: 3em;
     overflow-x: hidden;
+    margin-top: 0;
 }
 #fp {
     height: 100%;
@@ -118,16 +119,19 @@ li {
     border-radius: 1em;
     width: 10em;
     height: 3em;
-    margin: auto;
+    /* margin: auto; */
     display: block;
     font-size: 1.5em;
+    position: absolute;
+    top: 165rem;
+    margin-left: 3rem;
 }
 nav{
     width: 4.7rem;
-    height: 98%;
+    height: 100%;
     background-color: rgb(38, 150, 38);
     position: fixed;
-    left: 0.3em;
+    left: 0;
     transition: width 0.25s;
     padding:1em
 }
@@ -194,4 +198,9 @@ a {
 #settings{
     position: absolute;
     bottom: 2rem;
+}
+.price{
+    position: absolute;
+    top: 160rem;
+    margin-left: 4.8rem;
 }
